@@ -2,14 +2,12 @@
 
 
 This python script was written for simple purpose -- to visualise top-rated GitHub repositories in a barchart by keyword.
-For me it is just a fast and simple way to find the most popular resource on GitHub.
+Script generates html-page with barchart and information about repository owner, description, create date and update date.
 
 Installation:
 `pip install requests, pyplot`
 
 Help:
-`python TopRepoVisualiser.py --help`
-
 ```
 usage: TopRepoVisualiser.py [-h] -k KEYWORD [-s] [-l LIMIT] [-o OUTPUT]
 
