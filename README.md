@@ -5,7 +5,7 @@ This python script was written for simple purpose -- to visualise top-rated GitH
 Script generates html-page with barchart and information about repository owner, description, create date and update date.
 
 Installation:
-`pip install requests, pyplot`
+`pip install requests, plotly`
 
 Help:
 ```
