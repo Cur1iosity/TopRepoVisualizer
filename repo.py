@@ -1,5 +1,5 @@
 class Repo():
-    """Репозитории"""
+    """Repository"""
 
     def __init__(self, name, owner, stars, repository, created, updated, description):
         self.name = name
