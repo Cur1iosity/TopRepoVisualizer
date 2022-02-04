@@ -26,7 +26,7 @@ optional arguments:
 ```
 
 Usage example:
-`python TopRepoVisualiser.py --keyword anime --limit 5`
+`python TopRepoVisualiser.py --keyword anime --limit 10`
 
 Result:
 ![Result](Example.png)
