@@ -4,6 +4,7 @@ from requests import Session
 from random import choice
 from plotly import offline
 from repo import Repo
+from textwrap import dedent
 
 
 def get_git_repos(keyword, per_page=50):
@@ -12,7 +13,7 @@ def get_git_repos(keyword, per_page=50):
     s = Session()
     r = s.get(url, headers=headers)
     if r.status_code != 200:
-        print(f"Returned bad status code - {r.status_code}", flush=True)
+        print(f"Returned bad status code - {r.status_code}")
         return False
     return r.json()
 
@@ -72,7 +73,7 @@ def show_popular_git_repos(repos, keyword):
 
 
 if __name__ == "__main__":
-    print(""" 
+    hello_logo = dedent(""" 
 
  ______          ___              _   ___               ___            
 /_  __/__  ___  / _ \___ ___  ___| | / (_)__ __ _____ _/ (_)__ ___ ____
@@ -81,6 +82,7 @@ if __name__ == "__main__":
         /_/           /_/                                              
                                                   
 """)
+    print(hello_logo)
     parser = argparse.ArgumentParser(description='This script creating barchart with the most popular Git repositories found by keyword')
     parser.add_argument("-k", "--keyword", help="Keyword that you would like to search", required=True)
     parser.add_argument("-s", "--show", action='store_true', help="show list with repositories info")
