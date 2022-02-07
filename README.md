@@ -8,7 +8,7 @@ Installation:
 
 Help:
 ```
-usage: TopRepoVisualiser.py [-h] -k KEYWORD [-s] [-l LIMIT] [-o OUTPUT]
+usage: TopRepoVisualizer.py [-h] -k KEYWORD [-s] [-l LIMIT] [-o OUTPUT]
 
 This script creating barchart with the most popular Git repositories found by
 keyword
@@ -25,7 +25,7 @@ optional arguments:
 ```
 
 Usage example:
-`python TopRepoVisualiser.py --keyword anime --limit 10`
+`python TopRepoVisualizer.py --keyword anime --limit 10`
 
 Result:
 ![Result](Example.png)
