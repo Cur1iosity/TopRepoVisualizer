@@ -1,4 +1,4 @@
-# TopRepoVisualiser script
+# Visualization GitHub top-rated repositories by keyword
 
 
 Python script generates html-page with information about top-rated GitHub repositories by provided keyword.
