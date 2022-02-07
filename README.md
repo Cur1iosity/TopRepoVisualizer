@@ -1,8 +1,7 @@
 # TopRepoVisualiser script
 
 
-This python script was written for simple purpose -- to visualise top-rated GitHub repositories in a barchart by keyword.
-Script generates html-page with barchart and information about repository owner, description, create date and update date.
+Python script generates html-page with information about top-rated GitHub repositories by provided keyword.
 
 Installation:
 `pip install requests, plotly`
